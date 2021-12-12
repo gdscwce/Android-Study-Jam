@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginTop="2dp"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q.1 This is the question 1?"
+            android:textColor="@color/white"
+            android:layout_gravity="start"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold|italic"/>
+
+
+        <TextView
+            android:id="@+id/tv_option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Option 1"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="20dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Option 1"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="20dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Option 1"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="20dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Option 1"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:padding="20dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textStyle="bold|italic"
+            android:textSize="24sp"
+            android:padding="16dp"
+            app:cornerRadius="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="24dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
